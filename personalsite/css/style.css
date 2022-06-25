@@ -1,0 +1,29 @@
+nav {
+    background-color: #c7a540;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+nav  {
+    list-style-type: none;
+    display: flex;
+  
+}
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  
+}
+nav a:link, nav a:visited {
+    color: #114a72;
+}
+nav a:hover {
+    color: white;
+    background-color: #114a72;
+}
+
+#logo {
+    width: 25%;
+}

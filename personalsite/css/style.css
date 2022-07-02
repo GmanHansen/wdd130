@@ -1,29 +1,71 @@
+/* GLOBAL STUFF */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Kdam+Thmor+Pro&display=swap');
+
+body {
+    background-color: silver;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+}
 nav {
     background-color: #c7a540;
-    line-height: 3em;
+    line-height: 5em;
     text-align: center;
     font-size: 1.2em;
-}
-nav  {
-    list-style-type: none;
     display: flex;
-  
+    justify-content: space-around;
 }
 nav a {
-    padding:1em;
     min-width: 120px;
     text-decoration: none;
-    padding: 10px;
-  
+    padding: 30px;
 }
 nav a:link, nav a:visited {
-    color: #114a72;
+    color: #c72712;
 }
 nav a:hover {
     color: white;
     background-color: #114a72;
 }
-
 #logo {
-    width: 25%;
+    height: 7em;
+}
+p {
+    font: "Fira Sans", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Kdam Thmor Pro";
+    color: #c72712;
+}
+footer {
+    background-color: #c7a540;
+}
+
+
+/* HOME PAGE STUFF */
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100%;
+}
+#box {
+    grid-column: 1/2;
+    width: 80%;
+    padding: 10% 10%;
+}
+#poster {
+    grid-column: 3/4;
+    width: 80%;
+    padding: 10% 10%;
+}
+#open {
+    width: 100%
+}
+#screenshot {
+    width: 100%;
+}
+.centercontent{
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
